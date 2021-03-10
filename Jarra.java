@@ -10,15 +10,15 @@ this.capacidad=capacidadInicial;
 }
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
+    public int capacidad(){
+    return this.capacidad;
+    }
+    public int cantidad(){
+    return this.cantidad;
+    }
 // Comentario incluido para pruebas
 System.out.println("Aqui escribimos todos");
 }
 }
 
 
-public int capacidad(){
-return this.capacidad;
-}
-public int cantidad(){
-return this.cantidad;
-}
